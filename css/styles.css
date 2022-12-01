@@ -1,0 +1,162 @@
+body {
+    font-family: "montserrat";
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem; 
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 2.5rem; 
+    line-height: 1.5;
+    font-weight: 600;
+
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-size: 2 rem; 
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* navigation bar  */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+/* download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+ /* image title  */
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 57%
+} 
+
+.row {
+    padding-top: 100px;
+    margin: auto;
+}
+ /* features seccion */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68
+}
+/* testimonials section */
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+}
+.testemonial-image {
+    width: 10%;
+    border-radius: 100%;
+    padding: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* Pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}   
+
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position:static;
+        transform:rotate(0);
+        width: 60%;
+    }
+}
+
+/* section cta  */
+
+#cta {
+    color: #fff;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10%;
+}
+
+/* section footer */
+
+#footer {
+    padding: 5%;
+    text-align: center;
+   
+    
+}
+#icons {
+    padding: 2%;
+}
